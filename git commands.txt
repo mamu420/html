@@ -1,0 +1,37 @@
+git config --list
+
+git config user.name
+git config user.email
+git config code.editor
+
+git config --global user.name "user_name"
+git config --global user.email "your@gmail.com"
+git config --global code.editor "executable file with full path"
+
+git init
+git status
+
+
+git add file.txt
+git add -A
+git add --all
+git add .
+git add .txt
+git add folder name
+
+
+(use "git restore <file>..." to discard changes in working directory)
+git restore .
+
+
+(use "git restore --staged <file>..." to unstage)
+git restore --staged .
+git commit
+git commit -m "massage"
+
+
+
+git log
+git log --oneline
+
+
